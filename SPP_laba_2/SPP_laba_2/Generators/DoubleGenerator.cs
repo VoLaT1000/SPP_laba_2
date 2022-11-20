@@ -8,5 +8,9 @@ namespace SPP_laba_2.Generators
             var random = new Random();
             return random.NextDouble() * random.Next();
         }
+        public Type GetGeneratorType()
+        {
+            return typeof(double);
+        }
     }
 }

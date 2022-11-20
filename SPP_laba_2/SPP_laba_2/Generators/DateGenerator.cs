@@ -9,5 +9,9 @@ namespace SPP_laba_2.Generators
             DateTime start = new DateTime(2003, 02, 18);
             return start.AddDays(random.Next((DateTime.Today - start).Days));
         }
+        public Type GetGeneratorType()
+        {
+            return typeof(DateTime);
+        }
     }
 }

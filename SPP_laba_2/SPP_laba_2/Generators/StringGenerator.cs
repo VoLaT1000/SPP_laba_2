@@ -14,5 +14,9 @@ namespace SPP_laba_2.Generators
             }
             return new string(_string);
         }
+        public Type GetGeneratorType()
+        {
+            return typeof(string);
+        }
     }
 }
