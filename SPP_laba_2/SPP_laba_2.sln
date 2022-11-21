@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPP_laba_2", "SPP_laba_2\SPP_laba_2.csproj", "{93D29282-4DF8-490B-AA1D-BAEEF7F91B3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPP_laba_2", "SPP_laba_2\SPP_laba_2.csproj", "{93D29282-4DF8-490B-AA1D-BAEEF7F91B3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntGeneratorPlugin", "IntGeneratorPlugin\IntGeneratorPlugin.csproj", "{7FA17ABE-802E-4FA9-AECA-DC0CC6317B85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntGeneratorPlugin", "IntGeneratorPlugin\IntGeneratorPlugin.csproj", "{7FA17ABE-802E-4FA9-AECA-DC0CC6317B85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongGeneratorPlugin", "LongGeneratorPlugin\LongGeneratorPlugin.csproj", "{5B7A164A-5E85-40E4-AB60-257D876C151E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongGeneratorPlugin", "LongGeneratorPlugin\LongGeneratorPlugin.csproj", "{5B7A164A-5E85-40E4-AB60-257D876C151E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakerTests", "FakerTests\FakerTests.csproj", "{D64A2EAA-F69E-4132-BBA1-17F23778EE2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5B7A164A-5E85-40E4-AB60-257D876C151E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B7A164A-5E85-40E4-AB60-257D876C151E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B7A164A-5E85-40E4-AB60-257D876C151E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64A2EAA-F69E-4132-BBA1-17F23778EE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64A2EAA-F69E-4132-BBA1-17F23778EE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64A2EAA-F69E-4132-BBA1-17F23778EE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64A2EAA-F69E-4132-BBA1-17F23778EE2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

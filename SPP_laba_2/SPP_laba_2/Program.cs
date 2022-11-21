@@ -7,11 +7,11 @@
             var faker = new Faker();
             var result = faker.Create<Class1>();
             Console.WriteLine(result._bool);
-            Console.WriteLine(result._string);
-            Console.WriteLine(result._int);
             Console.WriteLine(result._date);
             Console.WriteLine(result._double);
+            Console.WriteLine(result._int);
             Console.WriteLine(result._long);
+            Console.WriteLine(result._string);
         }
     }
 }
